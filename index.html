@@ -1,10 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+  	<link rel="stylesheet" href="styles.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-    <title>Résumé</title>
+    <title>Resume</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+  	<main>
+	  <div class="resume">
+	    <div class="container">
+	      <div class="resume__block">
+	        <h1 class="contact-info__header">Sivochka Viktoriya</h1>
+	        <h3 class="contact-info__sub-header">QA Manual</h3>
+
+	        <div class="contact_info_container fh">
+	          <div class="contact-info__block">
+				<a href="https://goo.gl/maps/EiZJhvvFMjS5tkou6" rel="author" class="contact-info__item">
+				  <div class="contact-info__item-icon-wrapper">
+				    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+				      <path
+				        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+				      </path>
+				    </svg>
+				    </div>
+				    <span>Dnipro, Ukraine</span>
+				</a>
+
+				<a href="" rel="author" class="contact-info__item">
+				  <div class="contact-info__item-icon-wrapper">
+				    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/> </svg>
+				    </div>
+				    <span>+38(050)-108-33-52</span>
+				</a>
+
+	          </div>
+	        
+	          <div class="contact-info__block contact-info__block--center">
+	            <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar">
+	          </div>
+
+	          <div class="contact-info__block">
+
+					<a href="https://www.linkedin.com/in/viktoriya-sivochka-951253256" rel="author" class="contact-info__item">
+					  <div class="contact-info__item-icon-wrapper">
+					    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+					      <path
+					        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+					      </path>
+					    </svg>
+					  </div>
+					  <span>Viktoriya Sivochka</span>
+					</a>
+          	
+
+					<a href="" rel="author" class="contact-info__item">
+					  <div class="contact-info__item-icon-wrapper">
+					    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12.042 23.648c-7.813 0-12.042-4.876-12.042-11.171 0-6.727 4.762-12.125 13.276-12.125 6.214 0 10.724 4.038 10.724 9.601 0 8.712-10.33 11.012-9.812 6.042-.71 1.108-1.854 2.354-4.053 2.354-2.516 0-4.08-1.842-4.08-4.807 0-4.444 2.921-8.199 6.379-8.199 1.659 0 2.8.876 3.277 2.221l.464-1.632h2.338c-.244.832-2.321 8.527-2.321 8.527-.648 2.666 1.35 2.713 3.122 1.297 3.329-2.58 3.501-9.327-.998-12.141-4.821-2.891-15.795-1.102-15.795 8.693 0 5.611 3.95 9.381 9.829 9.381 3.436 0 5.542-.93 7.295-1.948l1.177 1.698c-1.711.966-4.461 2.209-8.78 2.209zm-2.344-14.305c-.715 1.34-1.177 3.076-1.177 4.424 0 3.61 3.522 3.633 5.252.239.712-1.394 1.171-3.171 1.171-4.529 0-2.917-3.495-3.434-5.246-.134z"/></svg>
+					  </div>
+					  <span>sivochkavika@gmail.com</span>
+					</a>	
+	          </div>
+	          </div>
+
+	      </div>
+	      <div class="container">
+				  <div class="resume__block">
+				    <div class="intro">
+				      <div class="intro__icon-wrapper">
+				        <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+				          <path
+				            d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+				          </path>
+				        </svg>
+				      </div>
+				      <p class="intro_text">Hello! I have always been interested in the quality of the application. I have completed an intensive QA Manual training course. I am interested in this direction because I wanted the market to have as many high-quality products as possible. I am sure that the previous experience I gained and the acquired knowledge will help me to become a professional in this direction.<br>
+					In the future, I want to get a job as QA and become a quality assurance automation engineer with deep knowledge in this direction. I want to gain experience and work with specialists on interesting projects during the internship.
+					</p>
+				    </div>
+				  </div>
+				</div>
+				<div class="container">
+				  <div class="resume__block">
+				    <div class="skills">
+				      <h3 class="skills__header">Skills</h3>
+
+					<div class="intro">
+				      <div class="intro__icon-wrapper">
+				        <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+				          <path
+				            d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+				          </path>
+				        </svg>
+				      </div>
+				      <p class="skills__text">- Knowledge of the basics of software testing, SDLC, STLC<br>
+				     						 - Manual testing experience<br>
+											- Creation of test documentation: test cases,
+											checklists, bug reports<br>
+											- Work with Chrome DevTools<br>
+											- Understanding WEB, HTML, CSS<br>
+											- Understanding of client-server architecture<br>
+											- Test management systems: TestRail, Qase,
+											TestLink<br>
+											- Bug tracking systems: Jira, Mantis<br>
+											- Traffic analyzers: Wireshark, Charles, Fiddler<br>
+											- Testing API (REST, SOAP): Postman, SOAP UI<br>
+											- Databases: MySQL<br>
+											- Basic knowledge of load testing: Apache
+											JMeter
+					</p>
+				    </div>
+				    </div>
+				  </div>
+				 </div>
+				 <div class="container">
+					  <div class="resume__block">
+					    <div class="main-info fh">
+
+					      <div class="experiences">
+					      	<h3 class="experiences__header">Experience</h3>
+									  <div class="experiences__company">
+									    <div class="experiences__company-header">
+									      <span class="experiences__company-header-durability">Courses</span>
+									      <h3 class="experiences__company-header-name">Binary Studio Academy in 2023<br>
+									      												Beetroot Academy in 2022
+									      </h3>
+									    </div>
+
+									    <div class="experiences__company-project">
+									      <span class="experiences__company-project-role">QA Manual</span>
+									      <h3 class="experiences__company-project-name">Mobile and WEB testing</h3>
+									      <ul class="experiences__company-project-responsibilities">
+									        <li>Functional testing</li>
+									        <li>API testing</li>
+									        <li>Load testing</li>
+									        <li>UI/UX testing</li>
+									      </ul>
+									    </div>
+									  </div>
+									</div>
+
+									<div class="additional-info fv">
+									  <div class="additional-info__education">
+									    <h3 class="additional-info__education-header">Soft Skills</h3>
+									    <div class="additional-info__education-university">
+									      <span class="additional-info__education-university-durability"></span>
+									      <h3 class="additional-info__education-university-speciality">About myself</h3>
+									      <p class="additional-info__education-university-name">Learning quickly<br>
+									      Work to achieve results<br>
+									  Attentive<br>
+									Sociable</p>
+									    </div>
+									  </div>
+
+									  <div class="additional-info__languages">
+									    <h3 class="additional-info__languages-header">Languages</h3>
+									    <p class="additional-info__languages-item">
+									      English - Intermediate
+									    </p>
+									    <p class="additional-info__languages-item">
+									      Ukrainian - Fluent
+									    </p>
+									    <p class="additional-info__languages-item">
+									      Russian - Fluent
+									    </p>
+									  </div>
+									</div>
+
+					      </div>
+				      
+					    </div>
+					  </div>
+					</div>
+	    
+	  </div>
+	</main>
   </body>
 </html>
